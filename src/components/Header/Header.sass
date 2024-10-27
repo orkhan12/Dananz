@@ -1,0 +1,64 @@
+@import /src/sass/style
+
+.header__blocks
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: row
+  padding: 40px 0
+  flex-wrap: wrap
+.header__menu
+  display: flex
+  align-items: center
+.menu__list
+  display: flex
+  flex-direction: column
+  gap: 30px
+  flex-wrap: wrap
+  margin: 0 -24px
+  align-items: center
+  justify-content: center
+  margin-top: 40px
+  +md
+    margin-top: 0
+    flex-direction: row
+    justify-content: space-between
+  +bg
+    gap: 50px
+
+.menu__item
+  display: flex
+  justify-content: space-between
+  padding: 0 24px
+  transition: all ease-in-out .3s
+  &:hover
+    border-bottom: 1px solid $colorMain
+
+.menu__link
+  color: $colorBlack
+  font-weight:  400
+  font-size: 16px
+  line-height: 1.6
+
+  &.active
+    border-bottom: 1px solid $colorMain
+.contact
+  margin-left: 0
+  +md
+    //margin-left: 74px
+.btn
+  background: $colorMain
+  transition: background-color 0.3s ease-in-out
+  min-width: 142px
+  height: 49px
+.btn__link
+  color: $colorWhite
+  padding: 0 34px
+
+//==================
+.menu__item.active
+  border-bottom: 1px solid $colorMain
+
+
+
+

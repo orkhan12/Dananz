@@ -1,0 +1,103 @@
+@import ../../sass/style
+.about
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+  padding: 110px 0 100px 0
+  img
+    width: 100%
+    height: auto
+    object-fit: cover
+.about__text-main
+  color: #000000
+  font-size: 18px
+  font-weight: 400
+  line-height: 1.6
+  max-width: 582px
+  padding: 36px 0 86px 0
+.about__box-img
+  img
+    width: 63px
+    height: 63px
+
+.achievement
+  position: relative
+  .main__block-list
+    min-width: 252px
+    justify-content: space-between
+    display: flex
+    align-items: center
+    flex-direction: column
+    gap: 67px
+    background: $colorMain
+    padding: 50px 0 54px 0
+    max-width: 252px
+    +bg
+      display: flex
+      justify-content: center
+
+  .line-mini
+    position: absolute
+    left: 10%
+  .about__title
+    max-width: 738px
+    padding-bottom: 56px
+
+.achievement__blocks
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  gap: 30px
+  +bgg
+    justify-content: space-between
+
+  .achievement__blocks-img img
+    width: 100%
+    height: auto
+    object-fit: cover
+//==============================================
+.service
+  padding: 100px 0
+  .about__txt
+    max-width: 471px
+
+//=======================================
+.about__boxes
+  display: flex
+  justify-content: space-between
+  padding: 40px 0 0 0
+  flex-wrap: wrap
+  gap: 18px
+  +md
+    flex-wrap: nowrap
+  .about__boxes-img img
+    width: 100%
+    height: auto
+    object-fit: cover
+  .about__boxes-text
+    color: #333333
+    font-size: 18px
+    font-weight: 400
+    line-height: 1.6
+    max-width: 375px
+    padding: 48px 0 0 0
+.about__box
+  border: 2px solid #0000001A
+  padding: 20px 27px 22px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+  gap: 20px
+.about__info-title
+  padding-bottom: 20px
+  font-size: 24px
+  line-height: 1.4
+.about__info-text
+  line-height: 1.6
+  font-size: 18px
+//========================================
+

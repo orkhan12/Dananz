@@ -1,0 +1,102 @@
+@import ../../sass/style
+.rotatable
+  display: flex
+  -webkit-transform: rotate(-90deg)
+  -moz-transform: rotate(-90deg)
+  -o-transform: rotate(-90deg)
+  -ms-transform: rotate(-90deg)
+  transform: rotate(-90deg)
+.main__blocks
+  display: flex
+  flex-direction: column
+  justify-content: center
+  position: relative
+
+.main__block-in
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  flex-wrap: wrap
+  padding: 57px 0 46px 0
+.main__block
+  position: relative
+.main__title
+  font-weight: 700
+  font-size: 72px
+  line-height: 1.4
+  max-width: 681px
+  +medium
+    font-size: 54px
+  +small
+    font-size: 46px
+
+.line
+  position: absolute
+  width: 0
+  top: 50px
+  left: 500px
+  height: 0
+  border: 1px solid $colorBlack
+  +bg
+    width: 683px
+    height: 1px
+.main-block1
+  position: relative
+
+.rotate__text
+  color: $colorBlack
+  font-size: 18px
+  line-height: 1.5
+  margin: -130px
+  position: absolute
+  top: 0
+  left: 0
+  display: inline-block
+  -webkit-transform: rotate(-90deg)
+  -moz-transform: rotate(-90deg)
+  -o-transform: rotate(-90deg)
+  -ms-transform: rotate(-90deg)
+  transform: rotate(-90deg)
+
+//=======    main__block-img    ===========================
+.main__block-img
+  img
+    max-width: 100%
+    max-height: 100%
+    object-fit: cover
+    +medium
+      max-width: 98%
+      height: 100%
+
+//=======   main__block2   ==========================
+.main__blocks
+  .main__block-list
+    position: absolute
+    min-width: 252px
+    display: none
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
+    gap: 67px
+    background: $colorMain
+    padding: 50px 0 54px 0
+    top: 25%
+    left: 60%
+    +bg
+      display: flex
+      justify-content: center
+
+.main-block2-in
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  gap: 15px
+
+.main__block2-title
+  color: #ffffff
+  font-weight: 400
+
+.main__block2-text
+  color: #ffffff
+

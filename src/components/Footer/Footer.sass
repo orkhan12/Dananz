@@ -1,0 +1,46 @@
+@import ../../sass/style
+.footer__block-in
+  display: flex
+  justify-content: center
+  padding: 80px 0 85px 0
+  flex-wrap: wrap
+  gap: 25px
+  +bg
+    justify-content: space-between
+.footer__block
+  .about__title
+    max-width: 481px
+
+.footer__block-social
+  form
+    display: flex
+    flex-direction: column
+    position: relative
+    input
+      border-bottom: 1px solid #141414
+      padding: 18px 10px
+      margin-left: -28px
+    label
+      font-size: 18px
+      line-height: 1.6
+      color: #333333
+      display: flex
+      align-items: center
+      padding-bottom: 24px
+    label::before
+      content: ''
+      position: absolute
+      display: block
+      left: -25px
+      width: 14px
+      height: 14px
+      background: url('../../components/assets/ellipse.svg') no-repeat
+      background-size: cover
+    img
+      position: absolute
+      top: 62%
+      left: 90%
+      width: 24px
+      height: 24px
+
+

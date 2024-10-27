@@ -1,0 +1,53 @@
+@import ../../sass/style
+.register
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  margin-bottom: 100px
+  .about__text-main
+    text-align: center
+    max-width: 518px
+.register__form
+  display: flex
+  flex-direction: column
+  align-content: center
+  align-items: center
+  gap: 20px
+  div
+    padding-bottom: 5px
+    font-weight: bold
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 13px
+  input
+    padding: 15px 15px
+    min-width: 340px
+    border: 1px solid #9C9C9C
+
+
+.submit_register
+  background: $colorMain
+  padding: 14px 20px
+  min-width: 240px
+  border: none
+  color: #ffffff
+  transition: .3s
+  &:hover
+    transition:  ease .3s
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)
+
+.register__error
+  color: red
+
+.password-input-container
+  position: relative
+
+.register-eye
+  position: absolute
+  top: 33%
+  left: 92%
+  cursor: pointer
+  transition: ease .3s
+  &:hover
+    color: red
+

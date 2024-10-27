@@ -1,0 +1,51 @@
+@import ../../sass/style
+
+.additionall
+  .about__text-main
+    max-width: 518px
+
+.achievement__boxes
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  gap: 40px
+  margin-bottom: 100px
+
+.achievement__box
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  gap: 30px
+  +bg
+    justify-content: space-between
+@media screen and (min-width: 1100.98px)
+  .achievement__box
+    justify-content: center
+
+
+
+.achievement__block-img
+  img
+    width: 100%
+    height: auto
+    object-fit: cover
+
+
+.achievement__block-title
+  font-size: 24px
+  line-height: 1.4
+  font-weight: 600
+  color: #333333
+.achievement__block-text
+  max-width: 800px
+  display: flex
+  flex-direction: column
+  gap: 20px
+  +bg
+    max-width: 334px
+
+
+.achievement__block-txt
+  font-size: 18px
+  line-height: 1.6

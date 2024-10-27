@@ -1,0 +1,176 @@
+.furniture
+  position: relative
+
+  margin-bottom: 200px
+  +bg
+    margin-bottom: 525px
+
+.furniture__blocks
+  background: #fff
+  z-index: 3
+  max-width: 883px
+  height: auto
+
+.furniture__main
+  .about__title
+    margin-bottom: 24px
+  .about__txt
+    max-width: 471px
+    color: #9C9C9C
+.additional2
+  .furniture__container
+    display: flex
+    flex-direction: column
+    gap: 35px
+    padding: 0 40px 40px 0
+    position: relative
+    margin-bottom: 63px
+.furniture__container
+  display: flex
+  flex-direction: column
+  gap: 35px
+  padding: 0 40px 40px 0
+  position: relative
+.furniture__links
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &:hover .furniture__link
+    color: blue
+  .furniture__link
+    font-weight: 600
+    font-size: 24px
+    line-height: 1.4
+    span
+      padding-right: 40px
+      +big
+        padding-right: 30px
+      +medium
+        padding-right: 20px
+      +small
+        padding-right: 10px
+
+.furniture__img
+  img
+    transition: ease-out .3s
+    &:hover
+      border: 1px solid blue
+      border-radius: 50%
+
+.room
+  position: absolute
+  top: 65%
+  z-index: -1
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+  +big
+    top: 90%
+
+//=========================================
+.product__info
+  display: flex
+  justify-content: space-between
+  margin-bottom: 53px
+  flex-wrap: wrap
+  .about__title
+    max-width: 337px
+
+  .about__txt
+    max-width: 473px
+
+.furniture__links:hover
+  .furniture__img
+    transition: ease-in-out .3s
+    border: 1px solid blue
+    border-radius: 50%
+.furniture__text
+  max-width: 470px
+  padding-top: 24px
+  padding-left: 68px
+  color: #333333
+
+//================================
+.material
+  padding: 163px 0 120px 0
+  display: flex
+  flex-direction: column
+.material__info
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  +bgg
+    justify-content: center
+
+  +bigg
+    justify-content: center
+  +big
+    justify-content: center
+  +medium
+    justify-content: center
+  +small
+    justify-content: center
+
+.material__info-text
+  .about__title
+    max-width: 348px
+  .about__txt
+    max-width: 497px
+
+.additional
+  a
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 14px 0
+    min-width: 160px
+    background: #ffffff
+    color: #333333
+    border: 1px solid #3C3C3C
+.material__info-img
+  img
+    object-fit: cover
+    width: 100%
+    height: auto
+  +md
+    margin: -60px 0 0 0
+  margin-top: 60px
+//=====     contact__us  ===========================
+.contact__us
+  padding: 38px 0
+  background: #2C3878
+
+.contact__us-blocks
+  display: flex
+
+  align-items: center
+  flex-wrap: wrap
+  text-align: center
+  justify-content: center
+  +bg
+    text-align: left
+    justify-content: space-between
+
+  .about__txt
+    color: #D9D9D9
+    padding-bottom: 20px
+
+.contact__us-title
+  color: #ffffff
+  max-width: 613px
+  line-height: 1.7
+
+.contact__us-block1
+  max-width: 432px
+
+.contact__us-btn
+  a
+    display: flex
+    justify-content: center
+    align-items: center
+    min-width: 142px
+    padding: 14px 0
+    color: #333333
+    background: #ffffff

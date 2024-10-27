@@ -1,7 +1,7 @@
 @import sass/style
 
 body
-  font-family: Fira Sans, serif
+  font-family: "Poppins", sans-serif
   margin: 0
   color: #000
   font-size: 14px
@@ -11,7 +11,7 @@ html,
 body
   height: 100%
   line-height: 1
-  color: #EFE7E2
+  color: $colorText
 
 /* Обнуление */
 *,
@@ -22,6 +22,9 @@ body
   padding: 0
   margin: 0
   border: 0
+h1, h2, h3, h4
+  color: $colorBlack
+  font-size: 36px
 
 a
   text-decoration: none
@@ -49,11 +52,18 @@ img
   max-width: 1200px
   padding: 0 15px
   margin: 0 auto
+  +big
+    padding: 0 20px
+    margin: 0 auto
+  +medium
+    padding-bottom: 25px
+    margin: 0 auto
+  +small
+    padding-bottom: 35px
+    margin: 0 auto
 
 li
   list-style: none
-  a
-    color: #fff
 
 
 
